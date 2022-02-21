@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:weightSum="4"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        >
+        <ImageView
+            android:id="@+id/sample_view_ImageViewer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:layout_weight="1"
+            android:padding="10dp"/>
+        <LinearLayout
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/sample_view_TextView_countryName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bangladesh"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:textSize="20sp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                />
+            <TextView
+                android:id="@+id/sample_view_TextView_moreInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Click Here to see More"
+                android:layout_gravity="center_horizontal"
+                android:textSize="15sp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
