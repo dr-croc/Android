@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_1"
+        android:title="title"
+        android:icon="@drawable/ladybug"
+        app:showAsAction="always">
+    <menu>
+        <item
+            android:id="@+id/sub_item_8"
+            android:title="Title 8"
+            android:icon="@drawable/ladybug"
+            app:showAsAction="never"
+            />
+        <item
+            android:id="@+id/sub_item_9"
+            android:title="Title 9"
+            android:icon="@drawable/ladybug"
+            app:showAsAction="never"
+            />
+    </menu>
+    </item>
+
+    <item
+        android:id="@+id/item_2"
+        android:title="Title 2"
+        android:icon="@drawable/ladybug"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/item_3"
+        android:title="Title 3"
+        android:icon="@drawable/ladybug"
+        app:showAsAction="never"
+        />
+
+</menu>
+
+// 1.click on res 2.click on android res directiory 3. press on menu and create.
