@@ -1,0 +1,6 @@
+below build types 
+
+    buildFeatures
+            {
+                viewBinding true
+            }

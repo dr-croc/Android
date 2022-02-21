@@ -1,0 +1,5 @@
+webView.getSettings().setDomStorageEnabled(true);
+The DOM Storage provides mechanism to securely store data in the form of key/value pairs and later retrieve to use. 
+The main goal of this feature is to provide a comprehensive means through which interactive applications can be built (including advanced abilities, 
+such as being able to work “offline” for extended periods of time). 
+DOM Storage provides a powerful way of storing and retrieving data at client side using JavaScript like APIs which are easy to us.
