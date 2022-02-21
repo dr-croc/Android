@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+     <!--its better to open a radio group so that you organize all the radiobutton-->
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <RadioButton
+            android:id="@+id/radioButton_lenovo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lenovo"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            />
+        <RadioButton
+            android:id="@+id/radioButton_Asus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asus"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            />
+        <RadioButton
+            android:id="@+id/radioButton_Acer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Acer"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            />
+    </RadioGroup>
+    <Button
+        android:id="@+id/order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order"
+        />
+    <!--this will show the item that is selected-->
+    <TextView
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        />
+</LinearLayout>
