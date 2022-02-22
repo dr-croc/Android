@@ -13,3 +13,5 @@
 13.  third_screen.kt[set to home fragment] and decalre finish
 14.  splash screen and check if on boarding already occured. So that we dont run it again.
 15.  Done
+
+follwed video https://www.youtube.com/watch?v=COZ3j8Dwlog
