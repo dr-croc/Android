@@ -5,5 +5,11 @@
 5.  create class viewPagerAdapter.kt
 6.  go to viewPagerFragment
 7.  add fragment view pager in navigation graph and connect it with spalsh screen
-8. splash fragment
-9.  fragment_first_screen.xml
+8. splash fragment.kt
+9.  first_screen.kt[ set the go to second screen]
+10.  second_screen.kt[ set the  go to third screen screen]
+11.  create a home fragment
+12.  connect it in the nav graph
+13.  third_screen.kt[set to home fragment] and decalre finish
+14.  splash screen and check if on boarding already occured. So that we dont run it again.
+15.  Done
