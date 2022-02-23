@@ -1,0 +1,1 @@
+1. https://github.com/intuit/sdp > An android lib that provides a new size unit - sdp (scalable dp). This size unit scales with the screen size. It can help Android developers with supporting multiple screens.You can see that sdp scales with the screen size and the dp stays with the same size on all screen sizes.
