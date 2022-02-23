@@ -9,12 +9,10 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         
-        handler = Handler()
-        handler.postDelayed({
-            val intent = Intent(this, MainActivity2::class.java)
-            startActivity(intent)
-            finish()
-        },3000)
+        Handler().postDelayed({
+            startActivity(Intent(this, log_in::class.java))
+            finish() // pressing back will not go back
+        }, 3000)
         
     }
 }
