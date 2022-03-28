@@ -1,3 +1,5 @@
+class login : AppCompatActivity() {
+
     private  lateinit var  log: ActivityLoginBinding
     lateinit var email: String
     lateinit var  password: String
