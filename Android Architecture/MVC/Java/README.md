@@ -5,6 +5,15 @@ Model View Controller
 2. View -> TextView -> for showing the data
 3. Controller -> MainActivity.java -> button request from the activity for the data
 
+so again ->
+1. Model : Model is nothing but data
+2. View : ui design
+3. Controller : Control all the task/event that a user perform
+
+Flow of work ->
+fdsa
+
+
 For better understanding : 
 Suppose you went to a resturant for drinking a bottle of water, 
 so you went there, 
@@ -13,7 +22,7 @@ so you went there,
 3. you pay 
 
 So here -> 
-1. Model -> Bottle
+1. Model -> Bottle 
 2. View -> You
 3. Controller -> You
 
