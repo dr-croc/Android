@@ -10,8 +10,8 @@ so again ->
 2. View : ui design
 3. Controller : Control all the task/event that a user perform
 
-Flow of work ->
-fdsa
+Flow of work ->__
+VIEW -> CONTROLLER -> MODEL(get the data) -> again to CONTROLLER-> VIEW
 
 
 For better understanding : 
