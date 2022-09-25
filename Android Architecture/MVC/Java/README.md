@@ -1,4 +1,4 @@
-// so here
+
 Full meaning of MVC : 
 Model View Controller
 1. Model -> mvc_model.java -> where we are getting the data base from
