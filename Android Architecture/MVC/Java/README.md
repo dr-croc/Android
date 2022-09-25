@@ -5,3 +5,16 @@ Model View Controller
 2. View -> TextView -> for showing the data
 3. Controller -> MainActivity.java -> button request from the activity for the data
 
+For better understanding : 
+Suppose you went to a resturant for drinking a bottle of water, 
+so you went there, 
+1. you opended the fridge
+2. you get the water bottle 
+3. you pay 
+
+So here -> 
+1. Model -> Bottle
+2. View -> You
+3. Controller -> You
+
+same like above example, you request data from your api/database,  for showing the data you create a text view and for resutl you used button from main activity
