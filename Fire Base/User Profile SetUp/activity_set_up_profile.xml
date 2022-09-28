@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserProfile.SetUpProfile">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/img_profile_image"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:src="@drawable/user_image"
+                app:civ_border_color="#8BC34A"
+                app:civ_border_width="2dp" />
+
+            <TextView
+                android:id="@+id/profile_text"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profile Info"
+                android:layout_below="@id/img_profile_image"
+                android:textSize="@dimen/_20sdp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                />
+
+            <TextView
+                android:id="@+id/profile_text2"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Please Set your name and optinal imaeg"
+                android:layout_below="@id/profile_text"
+                android:layout_centerHorizontal="true"
+                />
+
+            <EditText
+                android:id="@+id/edt_profile_name"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profile_text2"
+                android:background="@drawable/text_box_outline"
+                android:layout_margin="@dimen/_10sdp"
+                android:padding="@dimen/_10sdp"
+                android:hint="Type Your Name"
+
+                />
+
+            <Button
+                android:id="@+id/btn_saveImageName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edt_profile_name"
+                android:layout_margin="@dimen/_8sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:background="#4CAF50"
+                android:text="Setup Profile" />
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>
