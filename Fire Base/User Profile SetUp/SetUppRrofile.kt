@@ -119,6 +119,6 @@ class SetUpProfile : AppCompatActivity() {
 * 7. using the user model class, send the model class in the refrences
 * 8. then check if the data stored successfully
 * 9. then toast.
-* 10. [got the phone number from otp checking activity using auth(authentication)]
+* 10. got the phone number from userAuthentication of firebase
 *
 * */
