@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dashBoard.DashBoard"
+    >
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/shimmer"
+        android:layout_above="@id/dashoboard_bottom_navigation"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <!--this are sample and will load before show up the actual message-->
+            <include layout="@layout/shimmer_effect"></include>
+            <include layout="@layout/shimmer_effect"></include>
+            <include layout="@layout/shimmer_effect"></include>
+            <include layout="@layout/shimmer_effect"></include>
+            <include layout="@layout/shimmer_effect"></include>
+            <include layout="@layout/shimmer_effect"></include>
+            <include layout="@layout/shimmer_effect"></include>
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/dashboard_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/dashoboard_bottom_navigation"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/row_conversation"
+        android:visibility="gone"
+        />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/dashoboard_bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/text_box_outline"
+        app:menu="@menu/menu"
+        android:elevation="30dp"
+        android:layout_margin="1dp"
+        />
+
+</RelativeLayout>
